@@ -30,5 +30,17 @@ package com.github.abel533.echarts.code;
  * @author liuzh
  */
 public enum Position {
-    outside, outer, inside, left, right, top, bottom
+    top,
+    left,
+    right,
+    bottom,
+    inside,
+    insideLeft,
+    insideRight,
+    insideTop,
+    insideBottom,
+    insideTopLeft,
+    insideBottomLeft,
+    insideTopRight,
+    insideBottomRight,
 }
