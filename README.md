@@ -97,17 +97,6 @@
 
 ##[完整更新日志](http://git.oschina.net/free/ECharts/blob/master/CHANGELOG.md)
 
-##如果你觉得这个项目对你有帮助，你可以通过捐赠来支持作者
-###支付宝二维码
-![支付宝二维码](http://www.mybatis.tk/alipay.png)
-###或
-###微信二维码
-![微信二维码](http://www.mybatis.tk/weixinpay.png)
-
-##感谢各位的支持~~
-
-- 宇哲 - ￥10 - 2016-03-15
-
 ##ECharts网址
 
 http://echarts.baidu.com/
