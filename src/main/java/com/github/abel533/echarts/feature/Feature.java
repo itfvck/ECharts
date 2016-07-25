@@ -98,6 +98,24 @@ public class Feature implements Serializable {
      * 图标，image://开头
      */
     private String icon;
+    private String optionToContent;
+    private String contentToOption;
+
+    public String getOptionToContent() {
+        return optionToContent;
+    }
+
+    public void setOptionToContent(String optionToContent) {
+        this.optionToContent = optionToContent;
+    }
+
+    public String getContentToOption() {
+        return contentToOption;
+    }
+
+    public void setContentToOption(String contentToOption) {
+        this.contentToOption = contentToOption;
+    }
 
     /**
      * 获取show值

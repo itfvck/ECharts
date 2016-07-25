@@ -28,6 +28,14 @@ package com.github.abel533.echarts.feature;
  * @author liuzh
  */
 public class DataView extends Feature {
+
+    /**
+     * @Fields serialVersionUID TODO
+     * @since Ver 2.0
+     */
+
+    private static final long serialVersionUID = 1234638093593537458L;
+
     /**
      * 构造函数
      */
@@ -35,6 +43,6 @@ public class DataView extends Feature {
         this.show(true);
         this.title("数据视图");
         this.readOnly(false);
-        this.lang(new String[]{"数据视图", "关闭", "刷新"});
+        this.lang(new String[] { "数据视图", "关闭", "刷新" });
     }
 }
