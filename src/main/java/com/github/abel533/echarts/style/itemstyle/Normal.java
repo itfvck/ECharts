@@ -24,8 +24,31 @@
 
 package com.github.abel533.echarts.style.itemstyle;
 
+import com.github.abel533.echarts.style.TextStyle;
+
 /**
  * @author liuzh
  */
 public class Normal extends Style<Normal> {
+	
+	private String type;
+	
+
+	public String type() {
+		return type;
+	}
+
+	public Normal type(String type) {
+		this.type = type;
+		return this;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+	
 }

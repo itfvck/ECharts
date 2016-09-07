@@ -24,11 +24,26 @@
 
 package com.github.abel533.echarts;
 
+import com.github.abel533.echarts.style.itemstyle.Normal;
+
 /**
  * Description: Label
  *
  * @author liuzh
  */
 public class Label extends AbstractLabel<Label> {
+	private Normal normal;
+
+	public Normal normal() {
+		if (normal == null) {
+			normal = new Normal();
+		}
+		return normal;
+	}
+
+	public Label normal(Normal normal) {
+		this.normal = normal;
+		return this;
+	}
 
 }
