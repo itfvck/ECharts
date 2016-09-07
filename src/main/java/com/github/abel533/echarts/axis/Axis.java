@@ -136,6 +136,28 @@ public abstract class Axis<T> extends AbstractData<T> implements Component {
 	 */
 	private Double nameRotate;
 
+	/**
+	 * Y 轴相对于默认位置的偏移，在相同的 position 上有多个 Y 轴的时候有用。
+	 */
+	private Double offset;
+
+	public Double offset() {
+		return offset;
+	}
+
+	public T offset(Double offset) {
+		this.offset = offset;
+		return (T) this;
+	}
+
+	public Double getOffset() {
+		return offset;
+	}
+
+	public void setOffset(Double offset) {
+		this.offset = offset;
+	}
+
 	public Double nameRotate() {
 		return nameRotate;
 	}
